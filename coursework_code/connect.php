@@ -10,7 +10,7 @@ if (empty($_POST["username"]) || empty($_POST["pass_word"])) {
     $email = $_POST["email"];
     $gender = $_POST["gender"];
 
-    // Insert the user details into the database
+    // Insert the user details into the database.
     $sql = "INSERT INTO tellers (username,password,email,gender)
     VALUES ('$username','$password','$email','$gender')";
 
