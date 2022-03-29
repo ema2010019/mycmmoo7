@@ -28,7 +28,7 @@ h6{
 }
 #second-slide{
     text-align: center;
-    font-family: "ubuntu";
+    font-family: "Montserrat";
 }
 
 p{
@@ -39,8 +39,8 @@ p{
 
 .photo-container{
     background-color: #ffff;
-    margin: 0;
-    padding-bottom: 50px;
+    margin-bottom: 0;
+    padding-bottom: 0px;
     padding-top: 10px;
     float: right;
 

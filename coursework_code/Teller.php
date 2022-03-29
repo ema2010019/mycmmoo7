@@ -91,6 +91,7 @@ $access_level = $_COOKIE["access_level"];
 
     <section id="upload-img">
         <div>
+          <!-- The upload form should only be accessed by actual users. -->
           <?php
           if($_COOKIE['access_level'] == "standard_user"){
             echo '<form action="gallery-upload.php" method="post" enctype ="multipart/form-data">
@@ -116,7 +117,7 @@ $access_level = $_COOKIE["access_level"];
           echo '<h3>Delete stories here:</h3>
           <form action = "Delete-file.php" method = "Post">
           <input type = "text" name = "filename" placeholder = "Delete multiple files" style = "width:300px;">
-          <button type = "submit" name = "submit">Delete File</button>
+          <button type = "submit" name = "submit">Delete Files</button>
 
         </form>';}
         

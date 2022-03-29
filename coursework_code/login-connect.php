@@ -1,4 +1,5 @@
 <?php
+session_start();
 include("connection.php"); // Establishing connection with our database
 
 // To ensure that the form is not submitted empty
