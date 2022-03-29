@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link to CSS bootstrap features -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Link to my custom stylesheet -->
+    <link rel="stylesheet" href="register.css">
+    <title>Registration page</title>
+</head>
+<body>
+    <!-- Creating a registration form using the CSS bootstrap framework -->
+    <div id="register">
+        <h3 class="text-center text-white pt-5">Registration form</h3>
+        <br>
+        <h4>You need to provide your personal details to access the application</h4>
+        <!-- Using the container feature from the framework to group the code -->
+        <div class="container">
+            <div id="register-row" class="row justify-content-center align-items-center">
+                <div id="register-column" class="col-md-6">
+                    <div id="register-box" class="col-md-12">
+                        <form id="registration-form" class="form" action="connect.php" method="post">
+                            <h3 class="text-center text-info">Register</h3>
+                            <div class="form-group">
+                                <label for="username" class="text-info">Username:</label><br>
+                                <input type="text" name="username" id="username" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="text-info">Password:</label><br>
+                                <input type="text" name="pass_word" id="password" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="text-info">email:</label><br>
+                                <input type="text" name="email" id="email" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="gender" class="text-info">gender:</label><br>
+                                <input type="text" name="gender" id="gender" class="form-control">
+                                <input type="submit" name="submit" class="btn btn-info btn-md" value="submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

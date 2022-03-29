@@ -1,0 +1,98 @@
+#page-name{
+    color: #af006e;
+    background-color:ghostwhite;
+    font-family: "Montserrat";
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+h1{
+    color:white;
+    font-size: 3rem;
+}
+
+h3{
+    color:#af006e;
+    font-family: "Montserrat";
+    font-size: 2rem;
+}
+
+h6{
+    color: #af006e;
+}
+
+#first-slide{
+    text-align: center;
+    font-family:"Montserrat";
+}
+#second-slide{
+    text-align: center;
+    font-family: "ubuntu";
+}
+
+p{
+    color: black;
+    word-wrap: break-word;
+}
+    
+
+.photo-container{
+    background-color: #ffff;
+    margin: 0;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    float: right;
+
+}
+
+
+
+.photo-container a div{
+    height: 600px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+    background-color: #FFff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery-wrapper{
+    background-color: #ffff;
+    height: 400px;
+}
+#upload-img{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#upload-title{
+    color: #af066e;
+}
+.carousel-item{
+    height: 300px;
+}
+
+.first-profile-pic{
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:70px;
+    height:70px;
+    float:inherit;
+}
+
+.second-profile-pic{
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:70px;
+    height:70px;
+    float:inherit;
+}
+
